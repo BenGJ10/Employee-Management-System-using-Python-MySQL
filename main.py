@@ -1,6 +1,4 @@
 import employee_management as em
-
-import mysql.connector
 from employee_management import get_connection, add_employee, remove_employee, promote_or_demote_employee, update_employee, salary_generator, display_employees
 
 def menu():
