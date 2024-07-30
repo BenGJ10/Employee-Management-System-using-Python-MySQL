@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS employees (
     salary DECIMAL(10, 2)
 );
 
+-- Table for user authentication, can't use yet.
 CREATE TABLE IF NOT EXISTS users (
     username VARCHAR(50) PRIMARY KEY,
     password VARCHAR(50)
